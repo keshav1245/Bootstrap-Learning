@@ -102,6 +102,111 @@ Aligning image to center : .mx-auto(margin auto) and .d-block(display block)
 
 Responsive image to manage size .img-fluid
 
+ALERTS
+
+use .alert
+
+for colored alerts 
+.alert .alert-success
+.alert .alert-danger
+.alert .alert-primary
+.alert .alert-warning
+.alert .alert-secondary
+.alert .alert-dark
+.alert .alert-info
+
+for making links in the alert of same color use .alert-link (for the 'a' tag)
+
+DISMISSABLE OR CLOSING ALERTS !
+we make a div with classes alert , alert-success(for color) , alert-dismissible
+requires js
+
+    <div class="alert alert-success alert-dismissible fade show">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Success</strong> alert <a href="#" class="alert-link">Click Here !</a> 
+    </div>
+
+for animations we used fade show
+
+BUTTONS IN BOOTSTRAP
+
+use classes btn and for color use 
+
+btn btn-success
+btn btn-primary
+btn btn-danger
+btn btn-warning
+btn btn-danger
+btn btn-dark and so on...
+<button type = "button" class="btn btn-primary"></button>
+
+OUTLINES
+ use btn btn-outline-primary
+
+BUTTON SIZES 
+
+btn btn-primary btn-lg (large)
+btn btn-primary btn-sm (small)
+
+use .btn-block for full width button
+
+ACTIVE DISABLED 
+use .active and .disabled
+
+SPINNERS TO BUTTONS
+
+use .spinner-border , .spinner-border-sm
+
+BUTTON GROUP
+
+.btn-group
+
+for vertical groups 
+
+.btn-group-vertical
+
+DROPDOWNS WITH BUTTONS
+
+
+classes in button : .btn .btn-primary .dropdown-toggle 
+extra attribute : data-toggle="dropdown"
+
+then make a div with class .dropdown-menu
+
+and include 'a' elements with class .dropdown-item
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

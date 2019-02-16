@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 <style media="screen">
   .row div{
     border:1px solid #111;
@@ -311,5 +314,106 @@
     <div class="jumbotron"> 
       <h1>Jumbotron Tutorial</h1>
     </div>
+
+    <h1>Alerts in Bootstrap</h1>
+    <p class="alert alert-success"><strong>Success</strong> alert</p>
+    <p class="alert alert-danger"><strong>Danger</strong> alert</p>
+    <p class="alert alert-info"><strong>Information</strong> alert</p>
+    <p class="alert alert-warning"><strong>Warning</strong> alert</p>
+    <p class="alert alert-primary"><strong>Primary</strong> alert</p>
+    <p class="alert alert-secondary"><strong>Secondary</strong> alert</p>
+    <p class="alert alert-dark"><strong>Dark</strong> alert</p>
+    <h1>Alert with links Of Same Color</h1>
+    <p class="alert alert-success"><strong>Success</strong> alert <a href="#" class="alert-link">Click Here !</a></p>
+    <p class="alert alert-danger"><strong>Danger</strong> alert <a href="#" class="alert-link">Click Here !</a></p>
+    <p class="alert alert-info"><strong>Information</strong> alert <a href="#" class="alert-link">Click Here !</a></p>
+    <p class="alert alert-warning"><strong>Warning</strong> alert <a href="#" class="alert-link">Click Here !</a></p>
+    <p class="alert alert-primary"><strong>Primary</strong> alert <a href="#" class="alert-link">Click Here !</a></p>
+    <p class="alert alert-secondary"><strong>Secondary</strong> alert <a href="#" class="alert-link">Click Here !</a></p>
+    <p class="alert alert-dark"><strong>Dark</strong> alert <a href="#" class="alert-link">Click Here !</a></p>
+ 
+    <h1>Closing Alerts</h1>
+      <p>Here we make a div with a button and then text for alert<br>It requires javascript library too... so 
+      include scripts in the head too.<br>We can also add animated effects by adding .fade and .show classes in the div</p>
+    <div class="alert alert-success alert-dismissible fade show">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Success</strong> alert 
+    </div>
+
+    <h1>Buttons in bootstrap</h1>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-info">Information</button>
+    <button type="button" class="btn btn-Secondary">Secondary</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <h1>Buttons outline</h1>
+
+    <button type="button" class="btn btn-outline-succes">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-light text-dark">Light Text Dark</button>
+
+    <h1>Buttons in bootstrap Size</h1>
+    <button type="button" class="btn btn-lg">Basic</button>
+    <button type="button" class="btn btn-primary btn-lg">Primary</button>
+    <button type="button" class="btn btn-info btn-lg">Information</button>
+    <button type="button" class="btn btn-Secondary btn-lg">Secondary</button>
+    <button type="button" class="btn btn-warning btn-lg">Warning</button>
+    <button type="button" class="btn btn-success btn-lg">Success</button>
+    <button type="button" class="btn btn-danger btn-lg">Danger</button>
+    <button type="button" class="btn btn-dark btn-lg">Dark</button>
+    <button type="button" class="btn btn-light btn-lg">Light</button>
+    <button type="button" class="btn btn-outline-succes btn-sm">Success</button>
+    <button type="button" class="btn btn-outline-danger btn-sm">Danger</button>
+    <button type="button" class="btn btn-outline-warning btn-sm">Warning</button>
+    <button type="button" class="btn btn-outline-primary btn-sm">Primary</button>
+    <button type="button" class="btn btn-outline-secondary btn-sm">Secondary</button>
+    <button type="button" class="btn btn-outline-dark btn-sm">Dark</button>
+    <button type="button" class="btn btn-outline-light text-dark btn-sm">Light Text Dark</button>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block">Full Width Button</button>
+
+    <a href="#" class="btn btn-block btn-link">ITS A LINK</a>
+
+    <h1>Active and DIsabled Button</h1>
+
+    <button type="button" class="btn btn-primary active">Active Button</button>
+    <button type="button" class="btn btn-primary" disabled="">Not Working</button>
+    <button type="button" class="btn btn-lg btn-dark"><span class="spinner-border spinner-border-sm"></span>Loading...</button>
+
+    <h1>Button Groups</h1>
+    <div class="btn-group">
+      <button type="button" class="btn btn-lg btn-danger">X-BOX</button>
+      <button type="button" class="btn btn-warning btn-lg">PS-4</button>
+      <button type="button" class="btn btn-success btn-lg">Nintendo</button>
+    </div>
+    <h1>Vertical Button Groups</h1>
+    <div class="btn-group-vertical">
+      <button type="button" class="btn btn-lg btn-danger">X-BOX</button>
+      <button type="button" class="btn btn-warning btn-lg">PS-4</button>
+      <button type="button" class="btn btn-success btn-lg">Nintendo</button>
+    </div>
+
+    <h1>Dropdown and Button</h1>
+    <div class="btn-group">
+      <button type="button" class="btn btn-lg btn-primary">Apple</button>
+      <button type="button" class="btn-lg btn btn-primary">Samsung</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle = "dropdown">Sony</button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">Tablet</a>
+          <a href="#" class="dropdown-item">Phone</a>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 </html>
