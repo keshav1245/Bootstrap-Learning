@@ -1,0 +1,107 @@
+PAGE WIDTH 
+.container
+.container-fluid
+
+GRID SYSTEM
+
+.col
+.col-4
+.col-sm
+.col-md
+.col-lg
+.col-xl
+
+DISPLAY HEADINGS
+
+.display-1 .display-2 .display-3 .display-4
+
+HIGHLIGHTING TXT 
+
+<mark></mark>
+
+UNDEDRLINED abbr
+
+BLOCKQUOTE CLASS .blockquote
+
+code , kbd is also styled
+
+TEXT COLORS 
+.text-muted,
+.text-primary, 
+.text-success, 
+.text-info, 
+.text-warning, 
+.text-danger, 
+.text-secondary, 
+.text-white, 
+.text-dark, 
+.text-body (default body color/often black) and .text-light
+
+BACKGROUND COLORS
+.bg-primary
+.bg-success
+.bg-info
+.bg-warning
+.bg-danger
+.bg-secondary
+.bg-dark
+.bg-white
+
+TABLE STYLING
+.table
+.table-striped
+.table-bordered
+.table-hover
+.table-dark
+.table-borderless
+
+TABLE CONTEXTUAL CLASSES (can be applied to table, tr ,td)
+.table-primary
+.table-dark
+.table-dark
+.table-danger
+.table-info
+.table-warning
+
+SMALL TABLE - .table-sm
+
+RESPONSIVE TABLES
+.table-responsive-sm
+.table-responsive-md
+.table-responsive-xl
+.table-responsive-lg
+
+<table class="table">
+      <thead>
+        <tr>
+          <th>first col</th>
+          <th>second col</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>First data</td>
+          <td>Second data</td>
+        </tr>
+        <tr>
+          <td>First data</td>
+          <td>Second data</td>
+        </tr>
+      </tbody>
+</table>
+
+IMAGES 
+
+Rounded Corners .rounded
+Circular .rounded-circle
+Thumbnail .img-thumbnail
+
+Aligning image to right : .float-right
+Aligning image to left : .float-left
+Aligning image to center : .mx-auto(margin auto) and .d-block(display block)
+
+Responsive image to manage size .img-fluid
+
+
+
+
