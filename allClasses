@@ -176,6 +176,233 @@ then make a div with class .dropdown-menu
 and include 'a' elements with class .dropdown-item
 
 
+BADGES
+
+These are used to provide extra info about a text 
+
+use span and use class .badge for badge 
+
+and alongside with .badge use
+.badge-primary
+.badge-secondary
+.badge-success
+.badge-warning
+.badge-danger
+.badge-info
+.badge-dark
+
+for different colors
+
+Example : <h1>Sample heading <span class="badge badge-info">new</span></h1>
+
+for round badges use .badge-pill
+
+Example : <h1>Sample heading <span class="badge badge-pill badge-info">new</span></h1>
+
+badge inside elements 
+
+<button class="btn btn-info">Message <span class="badge badge-light">5</span></button>
+
+
+PROGRESS BAR 
+
+add .progress  to the class of containing element and class .progress-bar to child
+
+and inside child element use style and then width property to set the progress bar
+
+Striped progress add .progress-bar-striped
+
+Animated bar : .progress-bar .progress-bar-striped .progress-bar-animated
+
+PAGINATION 
+
+use ul for this 
+use .pagination class in ul
+use .page-item class in li
+use .page-link class in anchor tag in li 
+use .active class in li to highlight the respective page link
+use .disabled to make link unclickable
+use .pagination-lg for larger or pagination-sm for smaller boxes in ul
+use .justify-content-center for center alignment and .justify-content-end for right aligned
+
+
+BREAD CRUMBS 
+
+other type for pagination
+
+use .breadcrumb in ul
+use .breadcrumb-item in li
+
+LISTGROUPS
+
+use .list-group in ul 
+use .list-group-item in li
+use .active for active state
+
+Linked List Group
+
+use .list-group-item in a tag and .list-group-item-action for hover
+
+use .diabled for unclickable links
+
+use .list-group-flush for removing borders
+
+use .list-group-item-info etc for colors 
+
+
+BOOTSTRAP CARDS
+
+.card class in containing element 
+.card-body for content
+.card-header for header
+.card-footer for footer
+.card-title to add card title to headings
+.card-text in p tag for text 
+.card-link for card links
+.card-img-top or card-img-bottom for images
+.card-img-overlay for making text written over the image
+.card-columns for grid like arramgements of card (pinterest example)
+.card-deck for grid card layout of equal height and width
+.card-group :: same as card-deeck with left and right margins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
