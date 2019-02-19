@@ -266,6 +266,119 @@ BOOTSTRAP CARDS
 .card-group :: same as card-deeck with left and right margins
 
 
+BOOTSTRAP DROPDOWNS
+
+use .dropdown in containing div and .dropleft or .dropright or .dropup for dropdown position
+use .dropdown-toggle and data-toggle="dropdown" in the button
+use .dropdown-menu to actually build the dropdown
+use .dropdown-item to actually add elements
+
+use .dropdown-divider class to separate link with horizontal line
+use .dropdown-header for adding heading to the items
+use .active .disabled for active or disabled dropdown items
+use .dropdown-item-text for adding simple text
+
+
+COLLAPSIBLE 
+
+use data-toggle="collapse" and data-target="#id" attribute in the button
+use .collapse in the div containing data and also give id to it.
+
+by default data is hidden, in the div containing content we can use .show class to make it appear initially.
+
+Use the data-parent attribute (in div having content) to make sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.
+
+
+NAVS
+
+for simple nav menu
+add .nav to a ul and .nav-item to li
+use .justify-content-center or .justify-content-end for center and right alignment
+
+use .nav-tabs to turn liks into tabs
+use .nav-pills to display as pills it like tabs but coloured whereas tabs are like borders
+justify tabs/pills using .nav-justified for equal length
+
+
+DYNAMIC TABS
+
+1. Nav tabs 
+in anchor use tab data-toggle="tab" href="#id"
+2. Tab panes
+use .tabcontent in containing element
+use .tab-pane .containier and also give id
+
+
+BOOTSTRAP NAVBAR
+
+use .navbar in nav element 
+use .navbar-expand-lg|sm|md|xl in nav element for changing horizontal to vertival layout (responsive)
+use bg-info etc in nav for color
+use .navbar-brand for logos n logo images in nav bar (before ul after nav)
+
+Collapsable navbar
+
+To create a collapsible navigation bar, use a button with class="navbar-toggler", data-toggle="collapse" and data-target="#thetarget". Then wrap the navbar content (links, etc) inside a div element with class="collapse navbar-collapse", followed by an id that matches the data-target of the button: "thetarget".
+
+(above 4 lines of text from w3schools.com)
+
+inside the div are the usual ul and li tags
+
+Dropdown navbar 
+see how to make a dropdown and implement it here also . its the similar process
+
+Form in navbar
+
+for form with search and a button 
+
+at first we use form-inline class in the form element (to keep button and search bar together)
+
+in input we use .form-control (styling) mr-sm-2 (margin btw button)
+
+For including anything with search bar 
+we use .input-group-prepend or .input-group-append
+First create a div with class .input-group
+then we created text inside span with class .input-group-text .input-group-prepend
+then created input element
+
+use .fixed-top to fix navbar on top
+use .fix-bottom to fix the navbar on the bottom
+use .sticky-top to make it stick to top when scrolled down
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
