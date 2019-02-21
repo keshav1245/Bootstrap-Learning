@@ -1,19 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
+
   <head>
+    
     <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Bootstrap</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
 <style media="screen">
   .row div{
     border:1px solid #111;
   }
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
 </style>
+
   </head>
+
   <body>
     <h1>Simple Columns</h1>
     <div class="row">
@@ -792,11 +806,237 @@
 
       </form>
     </nav>
-    
+    <h1>BOOTSTRAP FORMS</h1>
+    <div>   
+      <form class="bg-dark text-light">
+        <div class="form-group mr-sm-2 ml-sm-2">
+          <label for="email">Email : </label>
+          <input type="email" name="email" class="form-control">
+        </div>
+        <div class="form-group mr-sm-2 ml-sm-2">
+          <label for="password">Password : </label>
+          <input type="password" name="password" class="form-control">
+        </div>
+        <button type="submit" class="btn-outline-success btn mr-sm-2 ml-sm-2 mb-sm-2">Submit</button>
+      </form>
+    </div>
+    <br>
+    <div>
+      <form class="form-inline bg-dark text-light">
+        <div class="form-group mr-sm-2 ml-sm-2">
+          <label for="email">Email : </label>
+          <input type="email" name="email" class="ml-sm-2 form-control">
+        </div>
+        <div class="form-group mr-sm-2 ml-sm-2">
+          <label for="password">Password : </label>
+          <input type="password" name="password" class="ml-sm-2 form-control">
+        </div>
+        <button type="submit" class="btn-outline-success btn mr-sm-2 ml-sm-2 mb-sm-2 mt-sm-2">Submit</button>
+      </form>
+    </div>
+    <form>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" >Option 1
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" >Option 2
+        </label>
+      </div>
+    </form>
+    <h1>SELECT LISTS</h1>
+    <form>
+      <div class="form-group">
+        <select class="form-control form-control-lg">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+      </div>
+    </form>
+    <h1>RANGE</h1>
+    <form>
+      <div class="form-control">
+        <input type="range" class="form-control-range">
+      </div>
+    </form>
+    <h1>FILE</h1>
+    <form>
+      <div class="form-control">
+        <input type="file" class="form-control-file">
+      </div>
+    </form>
+    <h1>Input Groups</h1>
+    <form>
+      <div class="input-group mb-3"> 
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username">
+      </div>
 
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Email Id">
+        <div class="input-group-append">
+          <span class="input-group-text">@gmail.com</span>
+        </div>
+      </div>
+    </form>
+    <h5>Multiple Inputs</h5>
+    <form>
+      <div class="input-group mb-3"> 
+        <div class="input-group-prepend">
+          <span class="input-group-text">Person</span>
+        </div>
+        <input type="text" class="form-control" placeholder="First Name">
+        <input type="text" class="form-control" placeholder="Last Name">
+      </div>
+    </form>
+    <h5>Group with check box and radio</h5>
+    <form>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><input type="radio"></span>
+        </div>
+        <input type="text" placeholder="sometext" class="form-control">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><input type="checkbox"></span>
+        </div>
+        <input type="text" placeholder="sometext" class="form-control">
+      </div>
+    </form>
+    <h5>Buttons in input group</h5>
+    <form>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <button class="btn btn-outline-danger">Button</button>
+        </div>
+        <input type="text" class="form-control">
+      </div>
 
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-append"> 
+          <button class="btn btn-outline-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </form>
 
+    <h5>Dropdowns can also be made this way with input field</h5>
+    <form>
+      <div class="input-group">
+        <input type="email" class="form-control" placeholder="Your Email">
+        <div class="input-group-append dropdown">
+          <button class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown">Choose Domain</button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">@gmail.com</a>
+            <a href="#" class="dropdown-item">@yahoo.com</a>
+            <a href="#" class="dropdown-item">@example.com</a>
+          </div>
+        </div>
+      </div>
+    </form>
+    <h1>Custom Forms</h1>
 
+    <h3>Custom checkbox</h3>
+    <form>
+      <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="custo"> 
+        <label for="custo" class="custom-control-label">Custom Checkbox</label>
+      </div>
+    </form>
+    <h3>Custom Switch</h3>
+    <form>
+      <div class="custom-control custom-switch">
+        <input type="checkbox" id="swi" class="custom-control-input">
+        <label for="swi" class="custom-control-label">Toggle</label>
+      </div>
+    </form>
+    <h3>Custom radio</h3>
+    <form>
+      <div class="custom-control custom-radio">
+        <input type="radio" id="custo" class="custom-control-input">
+        <label class="custom-control-label" for="custo">Radio</label>
+      </div>
+    </form>
+    <h3>Custom select</h3>
+    <form>
+      <select class="custom-select custom-select-lg" name="cars">
+        <option selected="">Custom select menu</option>
+        <option>Volvo</option>
+        <option>Audi</option>
+      </select>
+    </form>
+    <form>
+    <h3>Custom Range</h3>
+    <form>
+      <label for="crge">Range</label>
+      <input type="range" class="custom-range" name="crge">
+    </form>
+    <h3>Custom File</h3>
+    <form>
+      <div class="custom-file">
+        <input type="file" name="cf" class="custom-file-input">
+        <label for="cf" class="custom-file-label">Choose File</label>
+      </div>
+    </form>
+    <h1>CAROUSEL</h1>
+    <div id="demo" class="caraousel slide" data-ride="carousel">
+      <!-- Carousel Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+
+      <!-- Slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="bg1.jpg"  alt="nature" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="banner.jpg" alt="light" width="1100" height="500">
+        </div>
+        <div class="carousel-item"> 
+          <img src="bg4.jpg" alt="kuch bhi yr" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="bg5.jpg" width="1100" height="500">
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a href="#demo" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#demo" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <h1>MODALS</h1>
+    <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">  
+          <div class="modal-header">
+            <h2 class="modal-title">Modal Heading</h2>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body" style="margin: 0px auto;">
+            <img src="bg1.jpg" width="300px" height="200px">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
 
 

@@ -346,12 +346,79 @@ use .fix-bottom to fix the navbar on the bottom
 use .sticky-top to make it stick to top when scrolled down
 
 
+BOOTSTRAP FORMS
 
 
+use .form-group in the div to encapsulate label and input
+use .form-control for 100% width elements
+use .form-inline in form element for form in one lines
+use .mr-sm-2 (margin right)
+use .mb-sm-2 (margin bottom)
+use .mt-sm-2 (margin top)
+use .ml-sm-2 (margin left) accordingly.
+
+for Checkboxes 
+
+use .form-check in the div containing label and inoput OR .form-check-inline for inline options
+use .form-check-label for the label
+use .form-check-input for input
+
+same for radio button except that in type = "checkbox" it will be type="radio"
+
+Form control :: form-control-sm|lg|xl|md along with form-control
+
+Range :: use .form-control-range in input type="range"
+
+For File :: use form-control-file to input type="file"
+
+INPUT GROUPS
+
+adding icon image texyt etc etc front or behing input fields
+
+use .input-group for the div containing text and input field
+use .input-group-append|prepend for the text you want to appened or prepend 
+use .input-group-text for span element
+use .form-control in input field
+use .input-group-sm|md|lg|xl for sizing
+
+CUSTOM FORMS 
+See syntax in index.html for creating custom forms in bootstrap
+
+CAROUSEL
+
+make a div with an id and class ="carousel slide" with data-ride = "carousel" attribute
+
+forIndicators: 
+
+make an unordered list with class carousel-indicators
+in li use data-slide-to="position" and data-target="#id" attributes
+
+forSlideshow:
+
+create a div with class="carousel-inner"
+in which make div with class="carousel-item" and add required items in the div (images)
+
+forLeftandRightControls
+
+use anchor tag with href="#id" class="carousel-control-prev" data-slide="prev"
+	and inside it span with class = "carousel-control-prev-icon"
 
 
+use anchor tag with href="#id" class="carousel-control-next" data-slide="next"
+	and inside it span with class = "carousel-control-next-icon"
 
+MODALS
+:dialogue box alert
 
+create a button to open the model  using classes as .btn .btn-color 
+data-toggle ="modal" data-target="#id_of_modal"
+
+create div with .modal class and give id
+	create div inside with .modal-dialog class (use .modal-sm|lg here for size also .modal-dialog-centered)
+		create div with .modal-contnt class
+			div with .modal-header inside create heading with .modal-title and .close classbtn
+			div with .modal-body for modal body
+			div with .modal-footer and button for clossing
 
 
 
