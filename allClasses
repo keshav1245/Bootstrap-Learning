@@ -318,7 +318,9 @@ use .navbar-brand for logos n logo images in nav bar (before ul after nav)
 
 Collapsable navbar
 
-To create a collapsible navigation bar, use a button with class="navbar-toggler", data-toggle="collapse" and data-target="#thetarget". Then wrap the navbar content (links, etc) inside a div element with class="collapse navbar-collapse", followed by an id that matches the data-target of the button: "thetarget".
+To create a collapsible navigation bar, use a button with class="navbar-toggler", data-toggle="collapse" 
+and data-target="#thetarget". Then wrap the navbar content (links, etc) inside a div element with
+class="collapse navbar-collapse", followed by an id that matches the data-target of the button: "thetarget".
 
 (above 4 lines of text from w3schools.com)
 
